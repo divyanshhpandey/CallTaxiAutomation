@@ -1,0 +1,345 @@
+2025-07-25 12:18:36 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:18:36 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:36 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:18:36 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:36 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:37 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:37 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:18:37 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:37 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:37 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:37 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:37 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:18:38 WARN  BookingPage:75 - Full Name is empty or null
+2025-07-25 12:18:38 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:38 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:18:38 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:38 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:38 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:38 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:18:38 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:38 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:38 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:38 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:39 INFO  BookingPage:73 - Entered Full Name: 12345
+2025-07-25 12:18:39 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:39 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:18:39 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:39 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:39 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:39 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:18:39 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:40 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:40 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:40 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:40 ERROR BookingPage:197 - Validation FAILED for field Name: expected 'Please enter a valid name', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:18:41 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:18:41 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:41 INFO  BookingPage:95 - Entered Email: testmail.com
+2025-07-25 12:18:41 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:41 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:41 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:41 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:18:41 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:41 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:41 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:41 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:41 ERROR BookingPage:197 - Validation FAILED for field Email: expected 'Please enter a valid email', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:18:42 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:18:43 INFO  BookingPage:84 - Entered Phone Number: consumer
+2025-07-25 12:18:43 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:18:43 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:43 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:43 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:43 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:18:43 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:43 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:43 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:43 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:43 ERROR BookingPage:197 - Validation FAILED for field Phone: expected 'Please enter a valid phone number', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:18:44 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:18:44 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:44 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:18:44 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:44 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:44 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:44 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:18:44 INFO  BookingPage:141 - Entered Pickup Time: 25:67:92
+2025-07-25 12:18:44 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:45 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:45 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:45 ERROR BookingPage:197 - Validation FAILED for field Pickup Time: expected 'Please enter a valid pickup time', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:18:46 INFO  BookingPage:73 - Entered Full Name: Rohan
+2025-07-25 12:18:46 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:46 INFO  BookingPage:95 - Entered Email: rohan@test.com
+2025-07-25 12:18:46 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:46 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:46 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:18:46 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:46 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:46 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:46 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:47 INFO  BookingPage:73 - Entered Full Name: Aman
+2025-07-25 12:18:47 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:18:47 INFO  BookingPage:95 - Entered Email: aman@test.com
+2025-07-25 12:18:47 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:18:47 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:47 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:47 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:18:47 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:18:48 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:48 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:49 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:18:49 INFO  BookingPage:84 - Entered Phone Number: 9.87654321E9
+2025-07-25 12:18:49 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:18:49 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:18:49 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:18:49 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:18:49 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30T00:00
+2025-07-25 12:18:49 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T10:00
+2025-07-25 12:18:49 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:18:49 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:18:49 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:49 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:18:50 INFO  BookingPage:73 - Entered Full Name: Aditya
+2025-07-25 12:18:50 INFO  BookingPage:84 - Entered Phone Number: 9.991122334E9
+2025-07-25 12:18:50 WARN  BookingPage:97 - Email is empty or null
+2025-07-25 12:18:50 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:18:50 INFO  BookingPage:116 - Selected Cab: Micro
+2025-07-25 12:18:51 INFO  BookingPage:123 - Selected Cab Type: Non-Ac
+2025-07-25 12:18:51 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-31T00:00
+2025-07-25 12:18:51 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T12:00
+2025-07-25 12:18:51 INFO  BookingPage:148 - Selected Passenger Count: 3
+2025-07-25 12:18:51 INFO  BookingPage:159 - Trip Type: Roundtrip
+2025-07-25 12:18:51 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:18:51 INFO  BookingPage:225 - Email missing error text: Please enter the email
+2025-07-25 12:23:46 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:23:46 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:46 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:23:46 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:46 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:46 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:46 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:23:46 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:46 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:46 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:47 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:47 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:23:47 WARN  BookingPage:75 - Full Name is empty or null
+2025-07-25 12:23:48 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:48 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:23:48 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:48 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:48 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:48 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:23:48 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:48 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:48 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:48 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:49 INFO  BookingPage:73 - Entered Full Name: 12345
+2025-07-25 12:23:49 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:49 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:23:49 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:49 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:49 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:49 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:23:49 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:49 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:49 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:49 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:49 ERROR BookingPage:197 - Validation FAILED for field Name: expected 'Please enter a valid name', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:23:51 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:23:51 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:51 INFO  BookingPage:95 - Entered Email: testmail.com
+2025-07-25 12:23:51 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:51 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:51 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:51 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:23:51 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:51 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:51 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:51 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:51 ERROR BookingPage:197 - Validation FAILED for field Email: expected 'Please enter a valid email', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:23:52 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:23:53 INFO  BookingPage:84 - Entered Phone Number: consumer
+2025-07-25 12:23:53 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:23:53 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:53 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:53 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:53 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:23:53 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:53 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:53 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:53 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:53 ERROR BookingPage:197 - Validation FAILED for field Phone: expected 'Please enter a valid phone number', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:23:54 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:23:54 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:54 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:23:54 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:54 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:54 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:54 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:23:55 INFO  BookingPage:141 - Entered Pickup Time: 25:67:92
+2025-07-25 12:23:55 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:55 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:55 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:55 ERROR BookingPage:197 - Validation FAILED for field Pickup Time: expected 'Please enter a valid pickup time', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:23:56 INFO  BookingPage:73 - Entered Full Name: Rohan
+2025-07-25 12:23:56 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:56 INFO  BookingPage:95 - Entered Email: rohan@test.com
+2025-07-25 12:23:56 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:56 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:56 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:23:56 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:56 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:56 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:56 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:57 INFO  BookingPage:73 - Entered Full Name: Aman
+2025-07-25 12:23:57 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:23:57 INFO  BookingPage:95 - Entered Email: aman@test.com
+2025-07-25 12:23:57 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:23:57 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:57 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:57 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:23:57 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:23:57 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:58 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:59 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:23:59 INFO  BookingPage:84 - Entered Phone Number: 9.87654321E9
+2025-07-25 12:23:59 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:23:59 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:23:59 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:23:59 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:23:59 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30T00:00
+2025-07-25 12:23:59 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T10:00
+2025-07-25 12:23:59 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:23:59 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:23:59 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:23:59 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:24:00 INFO  BookingPage:73 - Entered Full Name: Aditya
+2025-07-25 12:24:00 INFO  BookingPage:84 - Entered Phone Number: 9.991122334E9
+2025-07-25 12:24:00 WARN  BookingPage:97 - Email is empty or null
+2025-07-25 12:24:00 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:24:00 INFO  BookingPage:116 - Selected Cab: Micro
+2025-07-25 12:24:00 INFO  BookingPage:123 - Selected Cab Type: Non-Ac
+2025-07-25 12:24:01 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-31T00:00
+2025-07-25 12:24:01 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T12:00
+2025-07-25 12:24:01 INFO  BookingPage:148 - Selected Passenger Count: 3
+2025-07-25 12:24:01 INFO  BookingPage:159 - Trip Type: Roundtrip
+2025-07-25 12:24:01 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:24:01 INFO  BookingPage:225 - Email missing error text: Please enter the email
+2025-07-25 12:27:43 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:27:43 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:43 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:27:43 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:43 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:43 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:43 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:27:43 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:43 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:43 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:43 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:44 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:27:44 WARN  BookingPage:75 - Full Name is empty or null
+2025-07-25 12:27:45 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:45 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:27:45 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:45 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:45 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:45 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:27:45 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:45 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:45 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:45 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:46 INFO  BookingPage:73 - Entered Full Name: 12345
+2025-07-25 12:27:46 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:46 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:27:46 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:46 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:46 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:46 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:27:46 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:46 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:46 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:46 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:47 ERROR BookingPage:197 - Validation FAILED for field Name: expected 'Please enter a valid name', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:27:48 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:27:48 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:48 INFO  BookingPage:95 - Entered Email: testmail.com
+2025-07-25 12:27:48 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:48 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:48 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:48 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:27:48 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:48 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:48 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:48 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:48 ERROR BookingPage:197 - Validation FAILED for field Email: expected 'Please enter a valid email', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:27:49 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:27:49 INFO  BookingPage:84 - Entered Phone Number: consumer
+2025-07-25 12:27:49 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:27:50 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:50 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:50 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:50 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:27:50 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:50 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:50 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:50 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:50 ERROR BookingPage:197 - Validation FAILED for field Phone: expected 'Please enter a valid phone number', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:27:51 INFO  BookingPage:73 - Entered Full Name: Priya
+2025-07-25 12:27:51 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:51 INFO  BookingPage:95 - Entered Email: valid@mail.com
+2025-07-25 12:27:51 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:51 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:51 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:51 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30
+2025-07-25 12:27:51 INFO  BookingPage:141 - Entered Pickup Time: 25:67:92
+2025-07-25 12:27:51 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:51 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:52 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:52 ERROR BookingPage:197 - Validation FAILED for field Pickup Time: expected 'Please enter a valid pickup time', but got 'Your Booking has been Confirmed..'
+2025-07-25 12:27:53 INFO  BookingPage:73 - Entered Full Name: Rohan
+2025-07-25 12:27:53 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:53 INFO  BookingPage:95 - Entered Email: rohan@test.com
+2025-07-25 12:27:53 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:53 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:53 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:27:53 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:53 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:53 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:53 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:54 INFO  BookingPage:73 - Entered Full Name: Aman
+2025-07-25 12:27:54 INFO  BookingPage:84 - Entered Phone Number: 9876543210
+2025-07-25 12:27:54 INFO  BookingPage:95 - Entered Email: aman@test.com
+2025-07-25 12:27:54 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:27:54 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:54 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:54 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-28
+2025-07-25 12:27:54 INFO  BookingPage:141 - Entered Pickup Time: 09:30
+2025-07-25 12:27:55 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:55 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:56 INFO  BookingPage:73 - Entered Full Name: Abhishek
+2025-07-25 12:27:56 INFO  BookingPage:84 - Entered Phone Number: 9.87654321E9
+2025-07-25 12:27:56 INFO  BookingPage:95 - Entered Email: abhi@test.com
+2025-07-25 12:27:56 INFO  BookingPage:105 - Selected Trip: Long
+2025-07-25 12:27:56 INFO  BookingPage:116 - Selected Cab: Mini
+2025-07-25 12:27:56 INFO  BookingPage:123 - Selected Cab Type: AC
+2025-07-25 12:27:56 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-30T00:00
+2025-07-25 12:27:56 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T10:00
+2025-07-25 12:27:56 INFO  BookingPage:148 - Selected Passenger Count: 2
+2025-07-25 12:27:56 INFO  BookingPage:156 - Trip Type: Oneway
+2025-07-25 12:27:56 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:56 INFO  BookingPage:170 - Confirmation Message: Your Booking has been Confirmed..
+2025-07-25 12:27:57 INFO  BookingPage:73 - Entered Full Name: Aditya
+2025-07-25 12:27:57 INFO  BookingPage:84 - Entered Phone Number: 9.991122334E9
+2025-07-25 12:27:57 WARN  BookingPage:97 - Email is empty or null
+2025-07-25 12:27:57 INFO  BookingPage:108 - Selected Trip: Local
+2025-07-25 12:27:57 INFO  BookingPage:116 - Selected Cab: Micro
+2025-07-25 12:27:58 INFO  BookingPage:123 - Selected Cab Type: Non-Ac
+2025-07-25 12:27:58 INFO  BookingPage:132 - Entered Pickup Date: 2025-07-31T00:00
+2025-07-25 12:27:58 INFO  BookingPage:141 - Entered Pickup Time: 1899-12-31T12:00
+2025-07-25 12:27:58 INFO  BookingPage:148 - Selected Passenger Count: 3
+2025-07-25 12:27:58 INFO  BookingPage:159 - Trip Type: Roundtrip
+2025-07-25 12:27:58 INFO  BookingPage:165 - Clicked Book Now button
+2025-07-25 12:27:58 INFO  BookingPage:225 - Email missing error text: Please enter the email

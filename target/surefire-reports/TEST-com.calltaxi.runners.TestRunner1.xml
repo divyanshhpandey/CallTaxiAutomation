@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.calltaxi.runners.TestRunner1" time="40.08" tests="14" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation\target\test-classes;C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation\target\classes;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\pande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\pande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\pande\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\pande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\pande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\pande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\pande\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\pande\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\pande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\pande\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\pande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\pande\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\pande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\pande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\pande\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pande\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\pande\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pande\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\pande\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\pande\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pande\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\pande\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\pande\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\pande\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pande\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pande\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\pande\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\pande\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\pande\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\pande\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\pande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\pande\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\pande\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\pande\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\pande\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\pande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\pande\AppData\Local\Temp\surefire13249912841043156491\surefirebooter-20250819132627055_3.jar C:\Users\pande\AppData\Local\Temp\surefire13249912841043156491 2025-08-19T13-26-26_842-jvmRun1 surefire-20250819132627055_1tmp surefire_0-20250819132627055_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation\target\test-classes;C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation\target\classes;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\pande\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\pande\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\pande\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\pande\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\pande\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\pande\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\pande\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\pande\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\pande\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\pande\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\pande\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\pande\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\pande\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\pande\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\pande\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\pande\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\pande\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\pande\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\pande\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\pande\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\pande\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-junit\7.14.0\cucumber-junit-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\pande\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\pande\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\pande\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\pande\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\pande\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\pande\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\pande\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\pande\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\pande\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\pande\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\pande\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\pande\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\pande\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\pande\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\pande\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\pande\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\pande\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\pande\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\pande\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\pande\.m2\repository\org\slf4j\slf4j-simple\2.0.13\slf4j-simple-2.0.13.jar;C:\Users\pande\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\pande\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\pande\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\pande\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\pande\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\pande\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\pande\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pande"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pande\AppData\Local\Temp\surefire13249912841043156491\surefirebooter-20250819132627055_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
+    <property name="user.name" value="pande"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pande\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pande\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.6"/>
+    <property name="user.dir" value="C:\Users\pande\Downloads\Sprint2New\Sprint2\CallTaxiAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files\Eclipse Foundation\jdk-16.0.2.7-hotspot\bin;C:\Users\pande\Python 3.10\Scripts\;C:\Users\pande\Python 3.10\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Program Files (x86)\National Instruments\Shared\LabVIEW CLI;C:\Program Files (x86)\IVI Foundation\IVI\Bin\;C:\Program Files\IVI Foundation\IVI\Bin\;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\winlibs\mingw64\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\pande\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-21;C:\Users\pande\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\pande\anaconda3;C:\Users\pande\anaconda3\Library\mingw-w64\bin;C:\Users\pande\anaconda3\Library\usr\bin;C:\Users\pande\anaconda3\Library\bin;C:\Users\pande\anaconda3\Scripts;C:\Users\pande\AppData\Local\Microsoft\WindowsApps;C:\Users\pande\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pande\Downloads\flutter_windows_3.10.4-stable\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.1\bin;;C:\Users\pande\AppData\Roaming\nvm;C:\Program Files\nodejs;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.6+8-LTS-188"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Submit form with all valid data&quot;, &quot;Booking Page UI and Functional Validation&quot;](1)" classname="com.calltaxi.runners.TestRunner1" time="6.413">
+    <system-out><![CDATA[
+@success
+Scenario: Submit form with all valid data                                                 # src/test/java/com/calltaxi/features/booking.feature:4
+  Given User launches the browser and opens the cab booking page                          # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Mouli
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: mouli@test.com
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-28
+13:26:34 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:35 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:35 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                            # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name  | Phone      | Email          | Trip | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | Mouli | 9876543210 | mouli@test.com | long | Mini | AC      | 2025-07-28 | 09:30 | 2         | oneway   |
+13:26:35 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                      # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:35 [main] INFO  com.calltaxi.pages.BookingPage - Confirmation Message: Your Booking has been Confirmed..
+  Then Booking confirmation message "Your Booking has been Confirmed" should be displayed # com.calltaxi.stepdefinitions.BookingStepsExcel.booking_confirmation_should_be_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:32 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit form with missing name&quot;, &quot;Booking Page UI and Functional Validation&quot;](2)" classname="com.calltaxi.runners.TestRunner1" time="2.498">
+    <system-out><![CDATA[
+@errordetected
+Scenario: Submit form with missing name                                       # src/test/java/com/calltaxi/features/booking.feature:13
+  Given User launches the browser and opens the cab booking page              # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:36 [main] WARN  com.calltaxi.pages.BookingPage - Full Name is empty or null
+13:26:36 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: mouli@test.com
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-28
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name    | Phone      | Email          | Trip | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | [empty] | 9876543210 | mouli@test.com | long | Mini | AC      | 2025-07-28 | 09:30 | 2         | oneway   |
+13:26:37 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                          # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+  Then Error message "Please enter the name" should be shown under Name field # com.calltaxi.stepdefinitions.BookingStepsExcel.name_error_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:36 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Error message for invalid data should be shown under &quot;name&quot; field&quot;, &quot;Booking Page UI and Functional Validation&quot;](3)" classname="com.calltaxi.runners.TestRunner1" time="2.832">
+    <failure message="Validation failed for field: name" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation failed for field: name
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid name" should be shown under "name" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+@knownbug
+Scenario: Error message for invalid data should be shown under "name" field         # src/test/java/com/calltaxi/features/booking.feature:32
+  Given User launches the browser and opens the cab booking page                    # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: 12345
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: valid@mail.com
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-30
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:39 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:40 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                      # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name  | Phone      | Email          | Trip | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | 12345 | 9876543210 | valid@mail.com | long | Mini | AC      | 2025-07-30 | 09:30 | 2         | oneway   |
+13:26:40 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:40 [main] ERROR com.calltaxi.pages.BookingPage - Validation FAILED for field Name: expected 'Please enter a valid name', but got 'Your Booking has been Confirmed..'
+  Then Error message "Please enter a valid name" should be shown under "name" field # com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(java.lang.String,java.lang.String)
+      java.lang.AssertionError: Validation failed for field: name
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid name" should be shown under "name" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Error message for invalid data should be shown under &quot;email&quot; field&quot;, &quot;Booking Page UI and Functional Validation&quot;](4)" classname="com.calltaxi.runners.TestRunner1" time="2.971">
+    <failure message="Validation failed for field: email" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation failed for field: email
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid email" should be shown under "email" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+@knownbug
+Scenario: Error message for invalid data should be shown under "email" field          # src/test/java/com/calltaxi/features/booking.feature:33
+  Given User launches the browser and opens the cab booking page                      # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Anurag
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: testmail.com
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-30
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:42 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:43 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                        # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name   | Phone      | Email        | Trip | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | Anurag | 9876543210 | testmail.com | long | Mini | AC      | 2025-07-30 | 09:30 | 2         | oneway   |
+13:26:43 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                  # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:43 [main] ERROR com.calltaxi.pages.BookingPage - Validation FAILED for field Email: expected 'Please enter a valid email', but got 'Your Booking has been Confirmed..'
+  Then Error message "Please enter a valid email" should be shown under "email" field # com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(java.lang.String,java.lang.String)
+      java.lang.AssertionError: Validation failed for field: email
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid email" should be shown under "email" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:41 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Error message for invalid data should be shown under &quot;phone&quot; field&quot;, &quot;Booking Page UI and Functional Validation&quot;](5)" classname="com.calltaxi.runners.TestRunner1" time="2.862">
+    <failure message="Validation failed for field: phone" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation failed for field: phone
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid phone number" should be shown under "phone" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+@knownbug
+Scenario: Error message for invalid data should be shown under "phone" field                 # src/test/java/com/calltaxi/features/booking.feature:34
+  Given User launches the browser and opens the cab booking page                             # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Anurag
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: consumer
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: valid@mail.com
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-30
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:45 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                               # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name   | Phone    | Email          | Trip | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | Anurag | consumer | valid@mail.com | long | Mini | AC      | 2025-07-30 | 09:30 | 2         | oneway   |
+13:26:46 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                         # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:46 [main] ERROR com.calltaxi.pages.BookingPage - Validation FAILED for field Phone: expected 'Please enter a valid phone number', but got 'Your Booking has been Confirmed..'
+  Then Error message "Please enter a valid phone number" should be shown under "phone" field # com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(java.lang.String,java.lang.String)
+      java.lang.AssertionError: Validation failed for field: phone
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid phone number" should be shown under "phone" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Error message for invalid data should be shown under &quot;pickup time&quot; field&quot;, &quot;Booking Page UI and Functional Validation&quot;](6)" classname="com.calltaxi.runners.TestRunner1" time="2.98">
+    <failure message="Validation failed for field: pickup time" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Validation failed for field: pickup time
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid pickup time" should be shown under "pickup time" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+]]></failure>
+    <system-out><![CDATA[
+@knownbug
+Scenario: Error message for invalid data should be shown under "pickup time" field                # src/test/java/com/calltaxi/features/booking.feature:35
+  Given User launches the browser and opens the cab booking page                                  # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Anurag
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: valid@mail.com
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-30
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 25:67:92
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                                    # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name   | Phone      | Email          | Trip | Cab  | CabType | Date       | Time     | Passenger | TripType |
+    | Anurag | 9876543210 | valid@mail.com | long | Mini | AC      | 2025-07-30 | 25:67:92 | 2         | oneway   |
+13:26:48 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                              # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:49 [main] ERROR com.calltaxi.pages.BookingPage - Validation FAILED for field Pickup Time: expected 'Please enter a valid pickup time', but got 'Your Booking has been Confirmed..'
+  Then Error message "Please enter a valid pickup time" should be shown under "pickup time" field # com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(java.lang.String,java.lang.String)
+      java.lang.AssertionError: Validation failed for field: pickup time
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid pickup time" should be shown under "pickup time" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:47 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit form with missing trip type&quot;, &quot;Booking Page UI and Functional Validation&quot;](7)" classname="com.calltaxi.runners.TestRunner1" time="2.4">
+    <system-out><![CDATA[
+@errordetected
+Scenario: Submit form with missing trip type                                       # src/test/java/com/calltaxi/features/booking.feature:38
+  Given User launches the browser and opens the cab booking page                   # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:50 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Aniket
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: aniket@test.com
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-28
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                     # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name   | Phone      | Email           | Trip    | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | Aniket | 9876543210 | aniket@test.com | [empty] | Mini | AC      | 2025-07-28 | 09:30 | 2         | oneway   |
+13:26:51 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                               # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+  Then Error message "Please Select the Trip" should be shown under Trip selection # com.calltaxi.stepdefinitions.BookingStepsExcel.trip_error_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:50 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit form with missing number of passengers&quot;, &quot;Booking Page UI and Functional Validation&quot;](8)" classname="com.calltaxi.runners.TestRunner1" time="2.28">
+    <system-out><![CDATA[
+@errordetected
+Scenario: Submit form with missing number of passengers                                             # src/test/java/com/calltaxi/features/booking.feature:46
+  Given User launches the browser and opens the cab booking page                                    # com.calltaxi.stepdefinitions.BookingStepsExcel.user_opens_booking_page()
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Paarth
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9876543210
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: paarth@test.com
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Local
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-28
+13:26:53 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 09:30
+13:26:54 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form with valid details:                                                      # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form(io.cucumber.datatable.DataTable)
+    | Name   | Phone      | Email           | Trip  | Cab  | CabType | Date       | Time  | Passenger | TripType |
+    | Paarth | 9876543210 | paarth@test.com | local | Mini | AC      | 2025-07-28 | 09:30 | [empty]   | oneway   |
+13:26:54 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                                # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+  Then Error message "Please Select the number of passengers" should be shown under Passenger count # com.calltaxi.stepdefinitions.BookingStepsExcel.passenger_error_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:52 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Booking with row 0 from Excel data&quot;, &quot;Booking Page UI and Functional Validation&quot;](9)" classname="com.calltaxi.runners.TestRunner1" time="3.356">
+    <system-out><![CDATA[
+@exceldata
+Scenario: Booking with row 0 from Excel data                                              # src/test/java/com/calltaxi/features/booking.feature:55
+  Given User reads booking data from Excel sheet "BookingData" and row 0                  # com.calltaxi.stepdefinitions.BookingStepsExcel.user_reads_excel_data(java.lang.String,java.lang.Integer)
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Abhishek
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9.87654321E9
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Entered Email: abhi@test.com
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Long
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Mini
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: AC
+13:26:56 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-30T00:00
+13:26:57 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 1899-12-31T10:00
+13:26:57 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 2
+13:26:57 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Oneway
+  When User fills the form using Excel data                                               # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form_excel()
+13:26:57 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                                      # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:26:57 [main] INFO  com.calltaxi.pages.BookingPage - Confirmation Message: Your Booking has been Confirmed..
+  Then Booking confirmation message "Your Booking has been Confirmed" should be displayed # com.calltaxi.stepdefinitions.BookingStepsExcel.booking_confirmation_should_be_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Booking with row 1 from Excel data&quot;, &quot;Booking Page UI and Functional Validation&quot;](10)" classname="com.calltaxi.runners.TestRunner1" time="2.598">
+    <system-out><![CDATA[
+@exceldata
+Scenario: Booking with row 1 from Excel data                             # src/test/java/com/calltaxi/features/booking.feature:61
+  Given User reads booking data from Excel sheet "BookingData" and row 1 # com.calltaxi.stepdefinitions.BookingStepsExcel.user_reads_excel_data(java.lang.String,java.lang.Integer)
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Entered Full Name: Aditya
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Entered Phone Number: 9.991122334E9
+13:26:59 [main] WARN  com.calltaxi.pages.BookingPage - Email is empty or null
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Selected Trip: Local
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab: Micro
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Selected Cab Type: Non-Ac
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Date: 2025-07-31T00:00
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Entered Pickup Time: 1899-12-31T12:00
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Selected Passenger Count: 3
+13:26:59 [main] INFO  com.calltaxi.pages.BookingPage - Trip Type: Roundtrip
+  When User fills the form using Excel data                              # com.calltaxi.stepdefinitions.BookingStepsExcel.user_fills_form_excel()
+13:27:00 [main] INFO  com.calltaxi.pages.BookingPage - Clicked Book Now button
+  And User clicks on Book Now button                                     # com.calltaxi.stepdefinitions.BookingStepsExcel.user_clicks_book_now()
+13:27:00 [main] INFO  com.calltaxi.pages.BookingPage - Email missing error text: Please enter the email
+  Then Email error message "Please enter the email" should be displayed  # com.calltaxi.stepdefinitions.BookingStepsExcel.email_error_should_be_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:26:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:26:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that cab service link navigates to the correct page&quot;, &quot;Service Page Cab Type Link Navigation&quot;](11)" classname="com.calltaxi.runners.TestRunner1" time="1.631">
+    <system-out><![CDATA[
+@nav
+Scenario Outline: Verify that cab service link navigates to the correct page # src/test/java/com/calltaxi/features/navigation.feature:11
+  Given User opens the Services page                                         # com.calltaxi.stepdefinitions.NavigationSteps.open_services_page()
+13:27:01 [main] INFO  com.calltaxi.pages.ServicesPage - Attempting to click on cab type link: mini
+13:27:01 [main] INFO  com.calltaxi.pages.ServicesPage - Clicked on Mini cab link
+  When User clicks on the "Mini" service link                                # com.calltaxi.stepdefinitions.NavigationSteps.user_clicks_service_link(java.lang.String)
+13:27:01 [main] INFO  com.calltaxi.pages.ServicesPage - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/mini.html
+  Then The user should be navigated to "mini.html"                           # com.calltaxi.stepdefinitions.NavigationSteps.verify_navigation(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:27:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:27:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that cab service link navigates to the correct page&quot;, &quot;Service Page Cab Type Link Navigation&quot;](12)" classname="com.calltaxi.runners.TestRunner1" time="1.794">
+    <system-out><![CDATA[
+@nav
+Scenario Outline: Verify that cab service link navigates to the correct page # src/test/java/com/calltaxi/features/navigation.feature:12
+  Given User opens the Services page                                         # com.calltaxi.stepdefinitions.NavigationSteps.open_services_page()
+13:27:03 [main] INFO  com.calltaxi.pages.ServicesPage - Attempting to click on cab type link: micro
+13:27:03 [main] INFO  com.calltaxi.pages.ServicesPage - Clicked on Micro cab link
+  When User clicks on the "Micro" service link                               # com.calltaxi.stepdefinitions.NavigationSteps.user_clicks_service_link(java.lang.String)
+13:27:03 [main] INFO  com.calltaxi.pages.ServicesPage - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/micro.html
+  Then The user should be navigated to "micro.html"                          # com.calltaxi.stepdefinitions.NavigationSteps.verify_navigation(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:27:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:27:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that cab service link navigates to the correct page&quot;, &quot;Service Page Cab Type Link Navigation&quot;](13)" classname="com.calltaxi.runners.TestRunner1" time="1.804">
+    <system-out><![CDATA[
+@nav
+Scenario Outline: Verify that cab service link navigates to the correct page # src/test/java/com/calltaxi/features/navigation.feature:13
+  Given User opens the Services page                                         # com.calltaxi.stepdefinitions.NavigationSteps.open_services_page()
+13:27:04 [main] INFO  com.calltaxi.pages.ServicesPage - Attempting to click on cab type link: sedan
+13:27:04 [main] INFO  com.calltaxi.pages.ServicesPage - Clicked on Sedan cab link
+  When User clicks on the "Sedan" service link                               # com.calltaxi.stepdefinitions.NavigationSteps.user_clicks_service_link(java.lang.String)
+13:27:05 [main] INFO  com.calltaxi.pages.ServicesPage - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/sedan.html
+  Then The user should be navigated to "sedan.html"                          # com.calltaxi.stepdefinitions.NavigationSteps.verify_navigation(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:27:04 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify that cab service link navigates to the correct page&quot;, &quot;Service Page Cab Type Link Navigation&quot;](14)" classname="com.calltaxi.runners.TestRunner1" time="1.576">
+    <system-out><![CDATA[
+@nav
+Scenario Outline: Verify that cab service link navigates to the correct page # src/test/java/com/calltaxi/features/navigation.feature:14
+  Given User opens the Services page                                         # com.calltaxi.stepdefinitions.NavigationSteps.open_services_page()
+13:27:06 [main] INFO  com.calltaxi.pages.ServicesPage - Attempting to click on cab type link: suv
+13:27:06 [main] INFO  com.calltaxi.pages.ServicesPage - Clicked on Suv cab link
+  When User clicks on the "Suv" service link                                 # com.calltaxi.stepdefinitions.NavigationSteps.user_clicks_service_link(java.lang.String)
+13:27:06 [main] INFO  com.calltaxi.pages.ServicesPage - Current page URL: https://webapps.tekstac.com/SeleniumApp2/CallTaxiService/suv.html
+  Then The user should be navigated to "suv.html"                            # com.calltaxi.stepdefinitions.NavigationSteps.verify_navigation(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.68 (resolved driver for Chrome 139)
+[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pande\.cache\selenium\chromedriver\win64\139.0.7258.68\chromedriver.exe
+Aug 19, 2025 1:27:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 139
+Aug 19, 2025 1:27:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 139.0.7258.128. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.calltaxi.runners.TestRunner1
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 40.08 s <<< FAILURE! - in com.calltaxi.runners.TestRunner1
+com.calltaxi.runners.TestRunner1.runScenario["Error message for invalid data should be shown under "name" field", "Booking Page UI and Functional Validation"](3)  Time elapsed: 2.832 s  <<< FAILURE!
+java.lang.AssertionError: Validation failed for field: name
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid name" should be shown under "name" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+com.calltaxi.runners.TestRunner1.runScenario["Error message for invalid data should be shown under "email" field", "Booking Page UI and Functional Validation"](4)  Time elapsed: 2.971 s  <<< FAILURE!
+java.lang.AssertionError: Validation failed for field: email
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid email" should be shown under "email" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+com.calltaxi.runners.TestRunner1.runScenario["Error message for invalid data should be shown under "phone" field", "Booking Page UI and Functional Validation"](5)  Time elapsed: 2.862 s  <<< FAILURE!
+java.lang.AssertionError: Validation failed for field: phone
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid phone number" should be shown under "phone" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
+com.calltaxi.runners.TestRunner1.runScenario["Error message for invalid data should be shown under "pickup time" field", "Booking Page UI and Functional Validation"](6)  Time elapsed: 2.98 s  <<< FAILURE!
+java.lang.AssertionError: Validation failed for field: pickup time
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at com.calltaxi.stepdefinitions.BookingStepsExcel.validate_error_under_field(BookingStepsExcel.java:119)
+	at ✽.Error message "Please enter a valid pickup time" should be shown under "pickup time" field(file:///C:/Users/pande/Downloads/Sprint2New/Sprint2/CallTaxiAutomation/src/test/java/com/calltaxi/features/booking.feature:28)
+
